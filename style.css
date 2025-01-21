@@ -103,6 +103,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: -50px;
     margin-bottom: -50px;
     z-index: 2;
+    color: white;
 }
 .sintillo::before{
     content: "";
@@ -118,7 +119,7 @@ h1, h2, h3, h4, h5, h6 {
     z-index: -1;  
 }
 /*texto dorado*/
-.sintillo h1, .sintillo h2{
+.sintillo h1, .sintillo h2, .sintillo p, .section-quote h1{
     background: linear-gradient(to right, #b29a68, #d4af37, #ffd700, #d4af37, #b29a68);
     -webkit-background-clip: text;
     color: transparent;
@@ -198,11 +199,8 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
 }
 /*dorado*/
-.section-countdown h1, p, .countdown-circle span, .section-music h2, .section-quote h1, .section h2, .section-playlist h2, .section-gifts h2, .section h3, .section-filter h2, .section span{
-    background: linear-gradient(to right, #b29a68, #d4af37, #ffd700, #d4af37, #b29a68);
-    -webkit-background-clip: text;
-    color: transparent;
-    animation: shine 1.5s infinite linear;
+.section-countdown h1, p, .countdown-circle span, .section-music h2, .section h2, .section-playlist h2, .section-gifts h2, .section h3, .section-filter h2, .section span{
+    color: #987326;
 }
 .section-countdown h1 {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
@@ -403,6 +401,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .section-quote{
     background-color: #fcf4e2;
+    margin-top: -10px;
 }
 .section-quote h1 {
     text-transform: capitalize;
