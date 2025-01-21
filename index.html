@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amy & Hector</title>
+    <meta property="og:url" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Nos Casamos Amy & Héctor">
+    <meta property="og:description" content="Llego el momento de unir nuestro amor por siempre">
+    <meta property="og:image" content="">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preload" href="/images/div.play.png" as="image">
+     <!-- Preconnect and Load Fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes:wght@400;700;900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+     <script src="https://cdn.lordicon.com/lordicon.js"></script>   
+</head>
+<body>
+    <!-- Sobre de la Invitación -->
+    <div id="envelope">
+        <div id="envelope-top"></div>
+        <div id="seal">
+            <h2 class="fade-in-element visible" style="transition-delay: 0s;">A | H</h2>
+        </div>
+        <div id="envelope-bottom"></div>
+    </div>
+    <!-- Contenido de la Invitación -->
+    <div id="invitacion">
+        <!--Header-->
+        <header class="sintillo">
+            <h1>Amy Archila &</h1>
+            <h2>Héctor Arellanos</h2>
+            <p>29 . 03 . 2025</p>
+        </header>
+        <!-- Sección de Foto -->
+        <div class="section-main fade-in-element">
+            <img src="/images/V2.png" alt="Foto de la quinceañera" width="100%">
+        </div>
+        <!-- Contador de Fecha Regresiva -->
+        <div class="section-countdown fade-in-element">
+            <h1>¡Nos casamos!</h1>
+            <p>El día en que nuestros corazones se unen para siempre ha llegado. Compartan nuestra alegría en nuestra boda</p>
+            <div id="contador">
+                <div class="countdown-circle">
+                    <span id="dias">00</span>
+                    <span>días</span>
+                </div>
+                <div class="countdown-circle">
+                    <span id="horas">00</span>
+                    <span>horas</span>
+                </div>
+                <div class="countdown-circle">
+                    <span id="minutos">00</span>
+                    <span>minutos</span>
+                </div>
+                <div class="countdown-circle">
+                    <span id="segundos">00</span>
+                    <span>segundos</span>
+                </div>
+            </div>
+             <!-- Agregar al Calendario -->
+              <div class="section-calendar">
+              <a href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MHVib24xNDRhNDh1Mzh0c25tZDAzMmg2amIgY182YmI5OWUzY2FmYTNiMzlhZmViZDRkODQyYWI2Yzg4MWU5MmQ0NzIwZWUxYTI1YTBhMDIxYjIzYTA1M2NmODg4QGc&tmsrc=c_6bb99e3cafa3b39afebd4d842ab6c881e92d4720ee1a25a0a021b23a053cf888%40group.calendar.google.com" target="_blank">Agregar al Calendario</a>
+              </div>
+        </div>  
+        <!-- Música de fondo -->
+        <div class="section-music fade-in-element">
+            <h2>"A thousand years - Christina Perri"</h2>
+          <audio id="musica" controls loop>
+             <source src="/Christina Perri - A Thousand Years.mp3" type="audio/mpeg">
+             Tu navegador no soporta la reproducción de audio.
+          </audio>
+        </div>   
+        <!--div cerezo-->
+        <div class="section-cerezo"></div>   
+         <!-- Bendición de Padres -->
+         <div class="section-b fade-in-element">
+            <p>“Mejores son dos que uno; porque tienen mejor paga de su trabajo. Porque si cayeran, el uno levantará al otro…”    Eclesiastés 4:9</p>
+        </div>
+        <!-- Itinerario -->
+        <div class="section fade-in-element">
+            <!--card ceremonia-->
+              <div class="ceremony fade-in-element">
+                <lord-icon 
+                     src="https://cdn.lordicon.com/lhzhnixi.json" 
+                     trigger="loop" 
+                     stroke="light" 
+                     colors="primary:#000000,secondary:#b29a68" 
+                     class="lord-icon-style"
+                     style="width:200px;height:200px"
+                     ></lord-icon>
+                 <h2>Celebremos Juntos</h2>
+                 <p>Amatique Bay Hotel, Puerto barrios</p>
+                 <div class="details">
+                     <div class="time-location">
+                       <span class="date"> 29 Marzo</span>
+                       <span class="separator">|</span>
+                       <span class="time">16:00 hrs</span>
+                    </div>
+                    <p class="location">14 Calle Final, Finca Pichilingo, Puerto Barrios</p>
+                    <button type="button"  class="directions-button" onclick="location.href='https://maps.app.goo.gl/DX1c94Aqd9cqWvrA7"'>Cómo llegar</button>
+                 </div>
+              </div>
+          </div>
+           <!-- Regalos -->
+         <div class="section-gifts fade-in-element">
+            <h2>Lluvia de Sobres</h2>
+            <lord-icon 
+                 src="https://cdn.lordicon.com/ibydboev.json" 
+                 trigger="loop" 
+                 stroke="light" 
+                 colors="primary:#000,secondary:#b29a68" 
+                 class="lord-icon-style"
+                 style="width:200px;height:200px"
+                 ></lord-icon>
+            <p>Lo que más queremos es compartir contigo nuestro gran día, pero agradecemos mucho el gesto de un obsequio. Tendremos un cofre en la entrada para que puedas dejar tu sobre con efectivo</p>
+            <p>¡Gracias!</p>
+        </div>
+         <!--dresscode-->
+         <div class="section fade-in-element">
+            <h2>Dress Code</h2>
+            <div class="icon">
+                <img src="/images/ICONOS.png" alt="icono-dresscode">
+            </div>
+            <p>Viste elegante, hemos reservado el color blanco y el beige. Agradecemos que uses otro color y seas parte de nuestro gran día.</p>
+        </div>
+         <!--div cerezo-->
+         <div class="section-cerezo1"></div>
+        <!-- Confirmación -->
+        <div class="section fade-in-element">
+            <h3>Confirmación</h3>
+            <lord-icon 
+                 src="https://cdn.lordicon.com/wzwygmng.json" 
+                 trigger="loop" 
+                 stroke="light"  
+                 colors="primary:#000000,secondary:#b29a68" 
+                 class="lord-icon-style"
+                 style="width:200px;height:200px"
+                 ></lord-icon>
+           <p>Para nosotros es muy importante que confirmes tu asistencia lo antes posible, o bien indicarnos si no podrás acompañarnos.</p>
+            <button onclick="confirmarAsistencia()">Confirmar</button>
+            <div id="confirmacion"></div>
+        </div>
+        <!--div cerezo-->
+        <div class="section-cerezo2"></div>   
+        <!-- Imagen -->
+        <div class="section fade-in-element">
+            <img src="/images/H1.png" alt="Foto de la quinceañera" width="100%" loading="lazy">
+        </div>
+        <!-- frase final-->
+        <div class="section-quote fade-in-element">
+            <h1>"La felicidad comienza aquí en nuestra boda"</h1>
+        </div>
+        <!-- Footer -->
+        <footer>
+            <div class="section-social-icons fade-in-element">
+                <a href="https://www.facebook.com/thetwodesign" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/thetwodesign/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/50236011737" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            <div class="section-logo">
+                <img src="/images/2.png" alt="Logo" width="100" loading="lazy">
+            </div>
+        </footer>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
